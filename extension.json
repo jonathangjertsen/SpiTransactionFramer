@@ -2,12 +2,12 @@
   "name": "SPI transaction framer",
   "apiVersion": "1.0.0",
   "author": "Jonathan Reichelt Gjertsen",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Merges SPI frames into transactions based on when the Enable line is active",
   "extensions": {
     "SPI transaction framer": {
       "type": "HighLevelAnalyzer",
-      "entryPoint": "HighLevelAnalyzer.SpiTransactionFramer"
+      "entryPoint": "SpiTransactionFramer.SpiTransactionFramer"
     }
   }
 }
