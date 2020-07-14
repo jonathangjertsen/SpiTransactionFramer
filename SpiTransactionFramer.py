@@ -1,4 +1,4 @@
-from saleae.analyzers import HighLevelAnalyzer, AnalyzerFrame, StringSetting, NumberSetting, ChoicesSetting
+from saleae.analyzers import HighLevelAnalyzer, AnalyzerFrame
 
 class SpiTransactionFramer(HighLevelAnalyzer):
     """
