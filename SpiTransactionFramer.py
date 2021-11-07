@@ -18,7 +18,7 @@ class SpiTransactionFramer(HighLevelAnalyzer):
         self.frames = []
 
         # Whether SPI is currently enabled
-        self.spi_enabled = False
+        self.spi_enable = False
 
         # Start time of the transaction - equivalent to the start time of the "Enable" frame
         self.transaction_start_time = None
